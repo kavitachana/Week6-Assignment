@@ -9,6 +9,44 @@ module.exports = {
 
   attributes: {
 
+  	gameName: {
+  		type: 'string',
+  		unique: true,
+  		required: true
+  	},
+
+  	countryOrigin: {
+  		type: 'string',
+  		required: true
+  	},
+
+  	yearDeveloped: {
+  		type: 'string',
+  		required: true
+  	},
+
+  	creator: {
+  		type: 'string'
+  	},
+
+	brand: {
+  		type: 'string',
+  		required: true
+  	},
+
+  	gameType: {
+  		type: 'string',
+  		required: true
+  	},
+
+  	minNumOfPlayers: {
+  		type: 'integer'
+  	},
+
+	maxNumOfPlayers: {
+  		type: 'integer'
+  	}
+
   }
 };
 
