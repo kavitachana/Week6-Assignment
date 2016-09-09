@@ -15,7 +15,7 @@ module.exports = {
   		required: true
   	},
 
-  	countryOrigin: {
+  	countryOfOrigin: {
   		type: 'string',
   		required: true
   	},
@@ -29,7 +29,7 @@ module.exports = {
   		type: 'string'
   	},
 
-	brand: {
+	 brand: {
   		type: 'string',
   		required: true
   	},
@@ -43,7 +43,7 @@ module.exports = {
   		type: 'integer'
   	},
 
-	maxNumOfPlayers: {
+	   maxNumOfPlayers: {
   		type: 'integer'
   	}
 
